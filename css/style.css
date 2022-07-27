@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-nav-link{
+    max-width: 100px;
+    max-height: 100px;
+    margin-top:1cm;
+    margin-left: 22px;
+}
+
+.header-title{
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(45deg, #5e288a, #eb3939);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family:'Times New Roman', Times, serif ;
+    text-shadow: none;
+}
+
+.article-list-item{
+    list-style-type:none;
+}
+
+.header-nav-link{
+    text-decoration: none;
+    color: brown;
+    font-size:large;
+    font-weight: bold;
+}
+
+.article-nav-link{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+
+}
+
+.bg1{
+    background: url(/img/anasayfa.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#bg2{
+    background: url(/img/ürünlerimiz.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position:absolute;
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#bg3{
+    background: url(/img/hakkımızda.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+    color: whitesmoke;
+}
+
+.ürünler-list-item{
+    list-style-position:inside;
+}
+.ürünler-img{
+    mix-blend-mode:normal;
+}
